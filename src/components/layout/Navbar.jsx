@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 function Navbar({ title }) {
   return (
-    <nav class="navbar bg-primary text-primary-content">
+    <nav className="navbar bg-primary text-primary-content">
       <div className="container mx-auto">
         <div className="flex-none px-2 mx-2">
           <Link to="/">
